@@ -1,0 +1,10 @@
+-- use_project.gpr:
+
+library project Use_Project is
+  for Externally_Built use "true";
+  for Source_Dirs use ("src");
+  for Library_Dir use "bin/debug";
+  for Library_Name use "simpleLibs";
+  for Library_Kind use "dynamic"; --"static/dynamic";
+  for Library_ALI_Dir use "ali/debug";
+end Use_Project;

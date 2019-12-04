@@ -1,0 +1,89 @@
+V "GNAT Lib v2017"
+M P W=b
+A -gnatA
+A -gnatc
+A -gnatwa
+A -gnaty3
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyn
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -mtune=generic
+A -march=pentium4
+P NO FX
+
+RN
+RV NO_IO
+RV NO_STREAMS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U udp_client%b		udp_client.adb		fbf3c7c0 OO SU
+W ada%s			ada.ads			ada.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W gnat%s		gnat.ads		gnat.ali
+W gnat.sockets%s	g-socket.adb		g-socket.ali
+
+D ada.ads		20170516105950 76789da1 ada%s
+D a-except.ads		20170516105952 291912d5 ada.exceptions%s
+D a-ioexce.ads		20170516105948 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20170516105952 119b8fb3 ada.streams%s
+D a-textio.ads		20170516105954 386df5d4 ada.text_io%s
+D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
+D a-uncdea.ads		20170516105954 f15a5ed1 ada.unchecked_deallocation%s
+D gnat.ads		20170516105956 fd2ad2f1 gnat%s
+D g-socket.ads		20170516105956 df7f0365 gnat.sockets%s
+D interfac.ads		20170516105950 5ab55268 interfaces%s
+D i-c.ads		20170516105948 5421119b interfaces.c%s
+D i-cstrea.ads		20170516105950 e53d8b8e interfaces.c_streams%s
+D system.ads		20170516105954 32a08138 system%s
+D s-crtl.ads		20170516105948 0ebbdb71 system.crtl%s
+D s-ficobl.ads		20170516105956 078245e4 system.file_control_block%s
+D s-oscons.ads		20170517173258 c37c858d system.os_constants%s
+D s-parame.ads		20170516105954 7e2a0d7f system.parameters%s
+D s-stalib.ads		20170516105954 09bd3940 system.standard_library%s
+D s-stoele.ads		20170516105956 2dc34a04 system.storage_elements%s
+D s-traent.ads		20170516105950 005bf670 system.traceback_entries%s
+D s-wchcon.ads		20170516105954 1b7d22d2 system.wch_con%s
+D udp_client.adb	20181216062020 1ce13171 udp_client%b
+X 1 ada.ads
+16K9*Ada 20e8 22|3r6
+X 5 a-textio.ads
+49K13*Text_IO 471e16 22|3w10
+X 8 gnat.ads
+34K9*GNAT 37e9 22|5r6 8r13 8r45 8r71 9r13 10r13 14r3 14r38 14r64 15r3 16r14
+. 20r3
+X 9 g-socket.ads
+55K14*Sockets 1284e17 22|5w11 8r18 8r50 8r76 9r18 10r18 14r8 14r43 14r69
+. 15r8 16r19 20r8
+412I9*Socket_Type<integer> 22|9r26
+463n25*Family_Inet{463E9} 22|8r58 14r51
+467n38*Socket_Datagram{467E9} 22|14r77
+505R9*Sock_Addr_Type 508e14 22|8r26
+525V13*Inet_Addr{488R9} 22|8s84
+817U14*Create_Socket 22|14s16
+854U14*Close_Socket 22|20s16
+857U14*Connect_Socket 22|15s16
+1021P9*Stream_Access(4|39R9) 22|10r26
+1024V13*Stream{1021P9} 22|16s27
+X 22 udp_client.adb
+7U11*UDP_Client 7b11 21l5 21t15
+8r3 Address{9|505R9} 15r39
+9i3 Socket{9|412I9} 14m30 15r31 16r34 20r29
+10p3 Channel{9|1021P9} 16m3 18r16
+12a3 Data{string} 18r25
+

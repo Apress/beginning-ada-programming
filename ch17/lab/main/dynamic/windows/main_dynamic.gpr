@@ -1,0 +1,29 @@
+-- main_dynamic.gpr
+--
+-- This is how one would compile the entire project, by default the debug binary will be built.
+--  > gprbuild -Pmain_dyn
+--
+-- This is how to clean up the build files after making the debug build.
+--  > gprclean -Pmain_dyn
+
+with "../../../use_project.gpr";
+with "../../../vehicle_project.gpr";
+
+project Main_Dynamic is
+  for Source_Dirs use (".");
+  for Object_Dir use ".";
+  for Main use ("main_dynamic.adb");
+
+  package Builder is
+  end Builder;
+
+  package Compiler is
+    for Switches("Ada") use ("-g", "-gnatwa");
+  end Compiler;
+
+  package Binder is
+  end Binder;
+
+  package Linker is
+  end Linker;
+end Main_Dynamic;

@@ -1,0 +1,58 @@
+V "GNAT Lib v2017"
+M P W=b
+A -gnatA
+A -gnatc
+A -gnatwa
+A -gnaty3
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyn
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -mtune=generic
+A -march=pentium4
+P NO FX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U if_statement%b	if_statement.adb	96f9941f OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20170516105950 76789da1 ada%s
+D a-ioexce.ads		20170516105948 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20170516105952 119b8fb3 ada.streams%s
+D a-textio.ads		20170516105954 386df5d4 ada.text_io%s
+D if_statement.adb	20190915050438 ae9461cb if_statement%b
+D interfac.ads		20170516105950 5ab55268 interfaces%s
+D i-cstrea.ads		20170516105950 e53d8b8e interfaces.c_streams%s
+D system.ads		20170516105954 32a08138 system%s
+D s-crtl.ads		20170516105948 0ebbdb71 system.crtl%s
+D s-ficobl.ads		20170516105956 078245e4 system.file_control_block%s
+D s-parame.ads		20170516105954 7e2a0d7f system.parameters%s
+D s-wchcon.ads		20170516105954 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 5|3r6 12r5 15r5 17r5 22r5 24r5 29r5 31r5
+X 4 a-textio.ads
+49K13*Text_IO 471e16 5|3w10 12r9 15r9 17r9 22r9 24r9 29r9 31r9
+263U14*Put_Line 5|12s17 15s17 17s17 22s17 24s17 29s17 31s17
+X 5 if_statement.adb
+5U11*if_statement 5b11 33l5 33t17
+6i3 Int1{integer} 10r6 10r21 13r9 13r33
+7i3 Int2{integer} 10r13 10r28 13r25
+8i3 Int3{integer} 13r16 20r6 27r6
+

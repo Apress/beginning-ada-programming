@@ -1,0 +1,104 @@
+V "GNAT Lib v2017"
+M P W=b
+A -gnatA
+A -gnatc
+A -gnatwa
+A -gnaty3
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyn
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -mtune=generic
+A -march=pentium4
+P NO FX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_STREAMS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U tcp_server%b		tcp_server.adb		416a4fc1 OO SU
+W ada%s			ada.ads			ada.ali
+W ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W gnat%s		gnat.ads		gnat.ali
+W gnat.sockets%s	g-socket.adb		g-socket.ali
+
+D ada.ads		20170516105950 76789da1 ada%s
+D a-except.ads		20170516105952 291912d5 ada.exceptions%s
+D a-ioexce.ads		20170516105948 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20170516105952 119b8fb3 ada.streams%s
+D a-textio.ads		20170516105954 386df5d4 ada.text_io%s
+D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
+D a-uncdea.ads		20170516105954 f15a5ed1 ada.unchecked_deallocation%s
+D gnat.ads		20170516105956 fd2ad2f1 gnat%s
+D g-socket.ads		20170516105956 df7f0365 gnat.sockets%s
+D interfac.ads		20170516105950 5ab55268 interfaces%s
+D i-c.ads		20170516105948 5421119b interfaces.c%s
+D i-cstrea.ads		20170516105950 e53d8b8e interfaces.c_streams%s
+D system.ads		20170516105954 32a08138 system%s
+D s-crtl.ads		20170516105948 0ebbdb71 system.crtl%s
+D s-ficobl.ads		20170516105956 078245e4 system.file_control_block%s
+D s-oscons.ads		20170517173258 c37c858d system.os_constants%s
+D s-parame.ads		20170516105954 7e2a0d7f system.parameters%s
+D s-stalib.ads		20170516105954 09bd3940 system.standard_library%s
+D s-stoele.ads		20170516105956 2dc34a04 system.storage_elements%s
+D s-traent.ads		20170516105950 005bf670 system.traceback_entries%s
+D s-wchcon.ads		20170516105954 1b7d22d2 system.wch_con%s
+D tcp_server.adb	20181216062020 42d8a614 tcp_server%b
+X 1 ada.ads
+16K9*Ada 20e8 22|3r6 4r6 22r3 27r5 36r12
+X 3 a-ioexce.ads
+18K13*IO_Exceptions 30e22 22|4w10 36r16
+26X4*End_Error 22|36r30
+X 5 a-textio.ads
+49K13*Text_IO 471e16 22|3w10 22r7 27r9
+263U14*Put_Line 22|22s15 27s17
+X 8 gnat.ads
+34K9*GNAT 37e9 22|6r6 9r16 10r16 11r16 12r16 17r3 17r40 17r66 18r3 18r44
+. 18r72 19r3 19r39 19r65 20r3 25r5 27r53 28r16 40r5
+X 9 g-socket.ads
+55K14*Sockets 1284e17 22|6w11 9r21 10r21 11r21 12r21 17r8 17r45 17r71 18r8
+. 18r49 18r77 19r8 19r44 19r70 20r8 25r10 27r58 28r21 40r10
+412I9*Socket_Type<integer> 22|9r29 10r29
+463n25*Family_Inet{463E9} 22|17r53 19r52
+467n23*Socket_Stream{467E9} 22|17r79
+505R9*Sock_Addr_Type 508e14 22|11r29
+522V13*Image{string} 22|27s66
+525V13*Inet_Addr{488R9} 22|19s78
+673n7*Socket_Level{672E9} 22|18r57
+685n7*Reuse_Address{682E9} 22|18r85
+817U14*Create_Socket 22|17s16
+823U14*Accept_Socket 22|25s18
+848U14*Bind_Socket 22|19s16
+854U14*Close_Socket 22|40s18
+901U14*Listen_Socket 22|20s16
+1008U14*Set_Socket_Option 22|18s16
+1021P9*Stream_Access(4|39R9) 22|12r29
+1024V13*Stream{1021P9} 22|28s29
+X 22 tcp_server.adb
+8U11*TCP_Server 8b11 42l5 42t15
+9i3 Receiver{9|412I9} 17m30 18r34 19r28 20r30 25r32
+10i3 Connection{9|412I9} 25m42 28r36 40r31
+11r3 Client{9|505R9} 25m54 27r72
+12p3 Channel{9|1021P9} 28m5 32r21 33r22
+14a3 Server_Data{string} 33r31
+15a3 Server_Data2{string} 32m30 32r30
+

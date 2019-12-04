@@ -1,0 +1,10 @@
+-- vehicle_project.gpr:
+
+library project Vehicle_Project is
+  for Externally_Built use "true";
+  for Source_Dirs use ("src_2");
+  for Library_Dir use "bin/debug";
+  for Library_Name use "autoLibs";
+  for Library_Kind use "dynamic"; --"static/dynamic";
+  for Library_ALI_Dir use "ali/debug";
+end Vehicle_Project;

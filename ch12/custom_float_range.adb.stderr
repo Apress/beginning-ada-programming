@@ -1,0 +1,15 @@
+C:\Users\dai\Documents\data\writing\ada\beginning_ada\source_code\ch12\custom_float_range.adb:1:04: (style) space required
+C:\Users\dai\Documents\data\writing\ada\beginning_ada\source_code\ch12\custom_float_range.adb:6:03: (style) bad indentation
+C:\Users\dai\Documents\data\writing\ada\beginning_ada\source_code\ch12\custom_float_range.adb:7:03: (style) bad indentation
+C:\Users\dai\Documents\data\writing\ada\beginning_ada\source_code\ch12\custom_float_range.adb:7:03: warning: "Val1" is not modified, could be declared constant
+C:\Users\dai\Documents\data\writing\ada\beginning_ada\source_code\ch12\custom_float_range.adb:8:03: (style) bad indentation
+C:\Users\dai\Documents\data\writing\ada\beginning_ada\source_code\ch12\custom_float_range.adb:8:03: warning: "Val2" is not modified, could be declared constant
+C:\Users\dai\Documents\data\writing\ada\beginning_ada\source_code\ch12\custom_float_range.adb:9:03: (style) bad indentation
+C:\Users\dai\Documents\data\writing\ada\beginning_ada\source_code\ch12\custom_float_range.adb:9:03: warning: "Val3" is not modified, could be declared constant
+C:\Users\dai\Documents\data\writing\ada\beginning_ada\source_code\ch12\custom_float_range.adb:10:03: (style) bad indentation
+C:\Users\dai\Documents\data\writing\ada\beginning_ada\source_code\ch12\custom_float_range.adb:10:03: warning: "Val4" is not modified, could be declared constant
+C:\Users\dai\Documents\data\writing\ada\beginning_ada\source_code\ch12\custom_float_range.adb:10:27: warning: static fixed-point value is not a multiple of Small
+C:\Users\dai\Documents\data\writing\ada\beginning_ada\source_code\ch12\custom_float_range.adb:16:03: (style) bad indentation
+C:\Users\dai\Documents\data\writing\ada\beginning_ada\source_code\ch12\custom_float_range.adb:17:03: (style) bad indentation
+C:\Users\dai\Documents\data\writing\ada\beginning_ada\source_code\ch12\custom_float_range.adb:18:03: (style) bad indentation
+C:\Users\dai\Documents\data\writing\ada\beginning_ada\source_code\ch12\custom_float_range.adb:19:03: (style) bad indentation

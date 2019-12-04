@@ -1,0 +1,14 @@
+C:\Users\dai\Documents\data\writing\ada\beginning_ada\source_code\ch15\tcp_client.adb:1:04: (style) space required
+C:\Users\dai\Documents\data\writing\ada\beginning_ada\source_code\ch15\tcp_client.adb:4:17: warning: unit "Ada.Strings.Unbounded" is not referenced
+C:\Users\dai\Documents\data\writing\ada\beginning_ada\source_code\ch15\tcp_client.adb:9:03: (style) bad indentation
+C:\Users\dai\Documents\data\writing\ada\beginning_ada\source_code\ch15\tcp_client.adb:9:03: warning: "Address" is not modified, could be declared constant
+C:\Users\dai\Documents\data\writing\ada\beginning_ada\source_code\ch15\tcp_client.adb:10:03: (style) bad indentation
+C:\Users\dai\Documents\data\writing\ada\beginning_ada\source_code\ch15\tcp_client.adb:11:03: (style) bad indentation
+C:\Users\dai\Documents\data\writing\ada\beginning_ada\source_code\ch15\tcp_client.adb:13:03: (style) bad indentation
+C:\Users\dai\Documents\data\writing\ada\beginning_ada\source_code\ch15\tcp_client.adb:15:03: (style) bad indentation
+C:\Users\dai\Documents\data\writing\ada\beginning_ada\source_code\ch15\tcp_client.adb:16:03: (style) bad indentation
+C:\Users\dai\Documents\data\writing\ada\beginning_ada\source_code\ch15\tcp_client.adb:17:03: (style) bad indentation
+C:\Users\dai\Documents\data\writing\ada\beginning_ada\source_code\ch15\tcp_client.adb:19:03: (style) bad indentation
+C:\Users\dai\Documents\data\writing\ada\beginning_ada\source_code\ch15\tcp_client.adb:20:03: (style) bad indentation
+C:\Users\dai\Documents\data\writing\ada\beginning_ada\source_code\ch15\tcp_client.adb:21:03: (style) bad indentation
+C:\Users\dai\Documents\data\writing\ada\beginning_ada\source_code\ch15\tcp_client.adb:23:03: (style) bad indentation

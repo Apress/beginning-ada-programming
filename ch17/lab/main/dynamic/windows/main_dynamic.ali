@@ -1,0 +1,101 @@
+V "GNAT Lib v2017"
+M P W=b
+A -gnatA
+A -g
+A -gnatwa
+A -gnatc
+A -gnatwa
+A -gnaty3
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyn
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -mtune=generic
+A -march=pentium4
+P NO FX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U main_dynamic%b	main_dynamic.adb	358822fb OO SU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W automobile%s		automobile.adb		automobile.ali
+W calc_time%s		calc_time.adb		calc_time.ali
+W geometry_shapes%s	geometry_shapes.adb	geometry_shapes.ali
+
+D ada.ads		20170516105950 76789da1 ada%s
+D a-ioexce.ads		20170516105948 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20170516105952 119b8fb3 ada.streams%s
+D a-textio.ads		20170516105954 386df5d4 ada.text_io%s
+D automobile.ads	20181216062020 d88d4e01 automobile%s
+D calc_time.ads		20181216062020 854478b2 calc_time%s
+D geometry_shapes.ads	20181216062020 59cfd21c geometry_shapes%s
+D interfac.ads		20170516105950 5ab55268 interfaces%s
+D i-cstrea.ads		20170516105950 e53d8b8e interfaces.c_streams%s
+D main_dynamic.adb	20181216062020 09e33380 main_dynamic%b
+D system.ads		20170516105954 32a08138 system%s
+D s-crtl.ads		20170516105948 0ebbdb71 system.crtl%s
+D s-ficobl.ads		20170516105956 078245e4 system.file_control_block%s
+D s-parame.ads		20170516105954 7e2a0d7f system.parameters%s
+D s-wchcon.ads		20170516105954 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 10|3r6 17r3 18r3 19r3 20r3 21r3 23r3 24r3 25r3 26r3 27r3 30r3
+. 32r3 35r3 38r3 41r3 44r3 46r3 49r3 53r3 56r3 59r3 62r3 64r3 67r3 70r3 72r3
+. 76r3 78r3
+X 4 a-textio.ads
+49K13*Text_IO 471e16 10|3w10 17r7 18r7 19r7 20r7 21r7 23r7 24r7 25r7 26r7
+. 27r7 30r7 32r7 35r7 38r7 41r7 44r7 46r7 49r7 53r7 56r7 59r7 62r7 64r7 67r7
+. 70r7 72r7 76r7 78r7
+166U14*New_Line 10|21s15 27s15 32s15 38s15 44s15 49s15 56s15 62s15 67s15
+. 72s15 78s15
+263U14*Put_Line 10|17s15 18s15 19s15 20s15 23s15 24s15 25s15 26s15 30s15
+. 35s15 41s15 46s15 53s15 59s15 64s15 70s15 76s15
+X 5 automobile.ads
+3K9*Automobile 77e15 10|7w6 15r15 15r34 71r3 74r16 75r16 77r3
+4R8*Auto 76e13 10|15r26
+24V12*Init{4R8} 10|15s45
+31V12*Set_Horsepower{4R8} 10|74s27
+36V12*Set_Cylinders{4R8} 10|75s27
+67U13*Print_Auto 10|71s14 77s14
+X 6 calc_time.ads
+3K9*Calc_Time 52e14 10|6w6 14r15 14r33 31r3 36r16 37r3 42r16 43r3 47r16 48r3
+. 52r3 54r16 55r3 60r16 61r3 65r16 66r3
+4R8*Mins 47e13 10|14r25
+13V12*Init{4R8} 10|14s43
+18V12*Add_Hours{4R8} 10|36s26
+23V12*Add_Minutes{4R8} 10|42s26 47s26
+28V12*Subtract_Hours{4R8} 10|54s26
+33V12*Subtract_Minutes{4R8} 10|60s26 65s26
+41U13*Put_Line 10|31s13 37s13 43s13 48s13 52s13 55s13 61s13 66s13
+X 7 geometry_shapes.ads
+3K9*Geometry_Shapes 24e20 10|5w6 18r82 19r82 20r82 25r82 26r82
+4V12*Circle_Area{float} 10|18s98
+8V12*Circle_Circumference{float} 10|19s98
+12V12*Rectangle_Area{float} 10|26s98
+17V12*Square_Area{float} 10|25s98
+21V12*Sphere_Volume{float} 10|20s98
+X 10 main_dynamic.adb
+9U11*Main_Dynamic 9b11 79l5 79t17
+10f3 Radius_Val{float} 17r82 18r110 19r119 20r112
+11f3 X_Side{float} 23r82 25r110 26r113
+12f3 Y_Side{float} 24r82 26r121
+14r3 Curr_Time{6|4R8} 31r22 36m3 36r36 37r22 42m3 42r38 43r22 47m3 47r38
+. 48r22 52r22 54m3 54r41 55r22 60m3 60r43 61r22 65m3 65r43 66r22
+15r3 Curr_Auto{5|4R8} 71r25 74m3 74r42 75m3 75r41 77r25
+

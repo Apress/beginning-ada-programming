@@ -1,0 +1,5 @@
+C:\Users\dai\Documents\data\writing\ada\beginning_ada\source_code\ch02\longer_integers.adb:1:04: (style) space required
+C:\Users\dai\Documents\data\writing\ada\beginning_ada\source_code\ch02\longer_integers.adb:6:03: (style) bad indentation
+C:\Users\dai\Documents\data\writing\ada\beginning_ada\source_code\ch02\longer_integers.adb:6:03: warning: "TestLI" is not modified, could be declared constant
+C:\Users\dai\Documents\data\writing\ada\beginning_ada\source_code\ch02\longer_integers.adb:8:03: (style) bad indentation
+C:\Users\dai\Documents\data\writing\ada\beginning_ada\source_code\ch02\longer_integers.adb:9:03: (style) bad indentation
