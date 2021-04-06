@@ -6,7 +6,7 @@ procedure Declare_Exceptions_Catching is
   Val1 : Integer := 45;
   Val2 : Integer := 0;
 begin
-  Ada.Text_IO.Put_Line("Getting started with cathing exceptions!");
+  Ada.Text_IO.Put_Line("Getting started with catching exceptions!");
 
   declare
   begin
