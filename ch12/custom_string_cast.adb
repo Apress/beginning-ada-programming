@@ -7,7 +7,7 @@ procedure Custom_String_Cast is
   subtype Currency_String is String(1 .. 3);
   US_Dollar : Currency_String         := "USD";
   Euro : Currency_String              := "EUR";
-  British_Pound : Currency_String     := "GPB";
+  British_Pound : Currency_String     := "GBP";
   Japan_Yen : Currency_String         := "JPY";
   Australian_Dollar : Currency_String := "AUD";
   HongKong_Dollar : Currency_String   := "HKD";
