@@ -22,34 +22,34 @@ begin
     declare
     begin
       Menu_Input.Get(Selected);
+      case Selected is
+        when 1 =>
+          Ada.Text_IO.Put_Line("Your apples is ready!");
+          Ada.Text_IO.New_Line;
+        when 2 =>
+          Ada.Text_IO.Put_Line("Your pears is ready!");
+          Ada.Text_IO.New_Line;
+        when 3 =>
+          Ada.Text_IO.Put_Line("Your asparagus is ready!");
+          Ada.Text_IO.New_Line;
+        when 4 =>
+          Ada.Text_IO.Put_Line("Your cauliflower is ready!");
+          Ada.Text_IO.New_Line;
+        when 5 =>
+          Ada.Text_IO.Put_Line("Your granola bar is ready!");
+          Ada.Text_IO.New_Line;
+        when 6 =>
+          exit Main_Menu;
+        when others =>
+          Ada.Text_IO.Put_Line("ERROR: Unknown type!");
+          Ada.Text_IO.New_Line;
+      end case;
     exception
       when others =>
         Ada.Text_IO.New_Line;
         Ada.Text_IO.Put_Line("ERROR: Input incorrect, must be from 1 to 6.");
         Ada.Text_IO.New_Line(2);
+        Ada.Text_IO.Skip_Line;
     end Main_Menu_Input;
-
-    case Selected is
-      when 1 =>
-        Ada.Text_IO.Put_Line("Your apples is ready!");
-        Ada.Text_IO.New_Line;
-      when 2 =>
-        Ada.Text_IO.Put_Line("Your pears is ready!");
-        Ada.Text_IO.New_Line;
-      when 3 =>
-        Ada.Text_IO.Put_Line("Your asparagus is ready!");
-        Ada.Text_IO.New_Line;
-      when 4 =>
-        Ada.Text_IO.Put_Line("Your cauliflower is ready!");
-        Ada.Text_IO.New_Line;
-      when 5 =>
-        Ada.Text_IO.Put_Line("Your granola bar is ready!");
-        Ada.Text_IO.New_Line;
-      when 6 =>
-        exit Main_Menu;
-      when others =>
-        Ada.Text_IO.Put_Line("ERROR: Unknown type!");
-        Ada.Text_IO.New_Line;
-    end case;
   end loop Main_Menu;
 end Limited_Integer;
